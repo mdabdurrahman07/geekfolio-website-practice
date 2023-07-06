@@ -116,6 +116,7 @@ body::-webkit-scrollbar{
     text-align: center;
     margin-top: 20px;
     padding: 20px;
+   
 
 }
 .icon{
@@ -149,6 +150,7 @@ body::-webkit-scrollbar{
 .service-container{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 50px;
 }
 .special{
     background: linear-gradient(45deg,rgb(111, 123, 247),rgb(234, 27, 89));
@@ -159,4 +161,14 @@ body::-webkit-scrollbar{
     font-weight: 700;
     padding-top: 15px;
     bottom: 15px;
+}
+.link-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    height:300px;
+}
+.special-two{
+    background: linear-gradient(90deg , black , black);
 }
