@@ -168,7 +168,32 @@ body::-webkit-scrollbar{
     align-items: center;
     padding-top: 100px;
     height:300px;
+    color: aliceblue;
 }
 .special-two{
-    background: linear-gradient(90deg , black , black);
+    background: linear-gradient(90deg , rgb(53, 15, 203) , rgb(208, 87, 238));
+}
+.geekfolio-h{
+    /* text-align: center; */
+    /* padding-top: 20px; */
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hr-p{
+ background-color: black;
+
+ padding: 20px;
+ color: aliceblue;
+ text-align: center;
+ 
+}
+.ppp{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.uuu{
+    margin-left:10% ;
+    margin-right: 10%;
 }
