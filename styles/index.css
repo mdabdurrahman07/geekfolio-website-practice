@@ -9,7 +9,7 @@ body{
    background-color: rgb(55, 55, 55);
    padding: 20px;
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    align-items: center;
   
 }
@@ -24,7 +24,7 @@ body{
    
 }
 .nav-it{
-    margin-left: 40px;
+    margin-left: 20px;
     padding: 15px;
     font-size: 18px;
     color: aliceblue;
