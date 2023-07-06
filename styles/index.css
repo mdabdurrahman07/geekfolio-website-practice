@@ -73,4 +73,32 @@ body{
     color: aliceblue;
 
 }
-   
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 100vh;
+    background-image: url(../images/background.png) , linear-gradient(360deg, rgb(245, 92, 92), rgb(222, 46, 205));
+}
+.ab-title{
+    text-align: center;
+    padding: 15px;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 300px;
+    margin-right: 600px;
+    
+
+}
+.about-h{
+    font-size: 35px;
+    padding: 10px;
+    font-weight: 600;
+}
+.about-p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
