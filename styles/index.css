@@ -38,7 +38,7 @@ body{
     transition: 3ms;
 }
 .bg-img{
-    width: 600px;
+    width: 500px;
     /* background-image: cover; */
 }
 .banner-container{
@@ -47,6 +47,9 @@ body{
     align-items: center;
     height:100vh ;
     background-image: url(../images/background.png) , linear-gradient(45deg, rgb(124, 26, 26), rgb(166, 57, 220));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 .title{
