@@ -36,3 +36,37 @@ body{
     color: rgb(79, 220, 239);
     transition: 3ms;
 }
+.bg-img{
+    width: 600px;
+    /* background-image: cover; */
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100vh ;
+    background-image: url(../images/background.png) , linear-gradient(45deg, rgb(124, 26, 26), rgb(166, 57, 220));
+    
+}
+.title{
+    font-size: 60px;
+    font-weight: 900;
+    
+}
+.disp{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 27px;
+    font-weight: 500;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(136, 17, 221);
+    font-weight: 500;
+    font-size: medium;
+    border: none;
+    border-radius: 10px 12px ;
+    color: aliceblue;
+
+}
+   
